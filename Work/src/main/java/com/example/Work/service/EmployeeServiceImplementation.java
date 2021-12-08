@@ -22,6 +22,7 @@ public class EmployeeServiceImplementation implements EmployeeService {
 	@Override
 	public List<Employee> getAll() {
 		// TODO Auto-generated method stub
+		System.out.println(emprepo.findAll());
 		return emprepo.findAll();
 	}
 
