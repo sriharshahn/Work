@@ -54,15 +54,7 @@ public void deleById(@PathVariable("id")int id)
 	//empser.delEmpById(id);
 }
 
-@GetMapping("/emp/{id}")
-@Query(value = "SELECT * FROM USERS u WHERE u.status = 1", 
-nativeQuery = true)
-public void GetById(@PathVariable("id")int id)
-{
-	
-		Collection<Employee> names;
-	//empser.delEmpById(id);
-}
+
 
 
 }
